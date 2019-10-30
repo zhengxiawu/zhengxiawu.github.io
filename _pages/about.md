@@ -11,7 +11,7 @@ redirect_from:
 ## About Me
 
 
-I am a second-year PhD candidate at the MAC Lab, School of Informatics, Xiamen University. My academic advisor is Prof. Rongrong Ji. I received the master's degree from School of Informatics, Xiamen University in 2015. My research interests include computer vision, image retrieval and automatic machine learning.
+I am a second-year PhD candidate at MAC Lab, School of Informatics, Xiamen University. My academic advisor is Prof. [Rongrong Ji](http://mac.xmu.edu.cn/rrji-en.html). I received the master's degree from School of Informatics, Xiamen University in 2018. My research interests include computer vision, image retrieval and automatic machine learning.
 
 ## Publication
 
