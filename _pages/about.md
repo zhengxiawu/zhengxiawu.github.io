@@ -22,9 +22,9 @@ I am a second-year PhD candidate at MAC Lab, School of Informatics, Xiamen Unive
 
 ### Conference:
 
-* **Xiawu Zheng**, Rongrong Ji∗, Xiaoshuai Sun, Yongjian Wu, Feiyue Huang, Yanhua Yang. [Centralized Ranking Loss with Weakly Supervised Localization for Fine-Grained Object Retrieval.](https://arxiv.org/pdf/1905.13543.pdf) In IJCAI2018.
-* **Xiawu Zheng**, Rongrong Ji*, Xiaoshuai Sun, Baochang Zhang, Yongjian Wu, Feiyue Huang. [Towards Optimal Fine Grained Retrieval via Decorrelated Centralized Loss with Normalize-Scale layer.](https://arxiv.org/pdf/1905.13543.pdf) In AAAI2019.
-* **Xiawu Zheng**, Rongrong Ji*, Lang Tang, Baochang Zhang, Jianzhuang Liu, Tian Qi. [Multinomial Distribution Learning for Effective Neural Architecture Search.](https://arxiv.org/pdf/1905.13543.pdf) In ICCV2019 (oral). [[code](https://github.com/tanglang96/MDENAS)]
+* **Xiawu Zheng**, Rongrong Ji∗, Xiaoshuai Sun, Yongjian Wu, Feiyue Huang, Yanhua Yang. [Centralized Ranking Loss with Weakly Supervised Localization for Fine-Grained Object Retrieval.](https://www.ijcai.org/proceedings/2018/0171.pdf) In IJCAI2018.
+* **Xiawu Zheng**, Rongrong Ji*, Xiaoshuai Sun, Baochang Zhang, Yongjian Wu, Feiyue Huang. [Towards Optimal Fine Grained Retrieval via Decorrelated Centralized Loss with Normalize-Scale layer.](https://doi.org/10.1609/aaai.v33i01.33019291) In AAAI2019.
+* **Xiawu Zheng**, Rongrong Ji*, Lang Tang, Baochang Zhang, Jianzhuang Liu, Tian Qi. [Multinomial Distribution Learning for Effective Neural Architecture Search.](http://openaccess.thecvf.com/content_ICCV_2019/papers/Zheng_Multinomial_Distribution_Learning_for_Effective_Neural_Architecture_Search_ICCV_2019_paper.pdf) In ICCV2019 (oral). [[code](https://github.com/tanglang96/MDENAS)]
 
 ## Academic Competitions
 
