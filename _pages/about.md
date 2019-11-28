@@ -22,6 +22,8 @@ I am a second-year PhD candidate at MAC Lab, School of Informatics, Xiamen Unive
 
 ### Conference:
 
+* Hanlin Chen, Li’an Zhuo, Baochang Zhang*, **Xiawu Zheng**, Jianzhuang Liu, David Doermann, Rongrong Ji. [Binarized Neural Architecture Search.](https://arxiv.org/pdf/1911.10862.pdf) In AAAI2020.
+
 * **Xiawu Zheng**, Rongrong Ji*, Lang Tang, Baochang Zhang, Jianzhuang Liu, Tian Qi. [Multinomial Distribution Learning for Effective Neural Architecture Search.](http://openaccess.thecvf.com/content_ICCV_2019/papers/Zheng_Multinomial_Distribution_Learning_for_Effective_Neural_Architecture_Search_ICCV_2019_paper.pdf) In ICCV2019 (oral). [[code](https://github.com/tanglang96/MDENAS)]
 
 * **Xiawu Zheng**, Rongrong Ji*, Xiaoshuai Sun, Baochang Zhang, Yongjian Wu, Feiyue Huang. [Towards Optimal Fine Grained Retrieval via Decorrelated Centralized Loss with Normalize-Scale layer.](https://doi.org/10.1609/aaai.v33i01.33019291) In AAAI2019. [[code](https://github.com/zhengxiawu/DGRL_OPFE)]
