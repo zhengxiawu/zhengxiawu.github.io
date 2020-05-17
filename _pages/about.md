@@ -21,6 +21,7 @@ I am a second-year PhD candidate at MAC Lab, School of Informatics, Xiamen Unive
 , Ling Shao. [Dynamic Distribution Pruning for Efficient Network Architecture Search.](https://arxiv.org/pdf/1905.13543.pdf) In Arxiv 2019 [[code](https://github.com/tanglang96/DDPNAS)]
 
 ### Conference:
+* **Xiawu Zheng**, Rongrong Ji*, Qiang Wang, Qixiang Ye, Zhenguo Li, Yonghong Tian, Tian Qi. Rethinking Performance Estimation in Neural Architecture Search. [[code](https://github.com/zhengxiawu/rethinking_performance_estimation_in_NAS)] In CVPR2020.
 
 * Hanlin Chen, Li’an Zhuo, Baochang Zhang*, **Xiawu Zheng**, Jianzhuang Liu, David Doermann, Rongrong Ji. [Binarized Neural Architecture Search.](https://arxiv.org/pdf/1911.10862.pdf) In AAAI2020.
 
