@@ -33,6 +33,6 @@ I am a second-year PhD candidate at MAC Lab, School of Informatics, Xiamen Unive
 
 ## Academic Competitions
 
-* AutoDL 2019:This is AutoDL challenge: the final challenge in 2019 AutoDL challenges series, Rank 1st.
+* AutoDL 2019: the final challenge in 2019 AutoDL challenges series, Rank 1st.
 
 * AutoCV2 2019: IMAGE + VIDEO Automated Computer Vision challenge, Rank 2st / 34 teams.
