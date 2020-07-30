@@ -4,23 +4,27 @@ title: "Xiawu Zheng"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
-  - /about/
-  - /about.html
+
+  + /about/
+  + /about.html
+
 ---
 
 ## About Me
-
 
 I am a second-year PhD candidate at MAC Lab, School of Informatics, Xiamen University. My academic advisor is Prof. [Rongrong Ji](http://mac.xmu.edu.cn/rrji-en.html). I received the master's degree from School of Informatics, Xiamen University in 2018. My research interests include computer vision, image retrieval and automatic machine learning.
 
 ## Publication
 
-### Pre-print:
+### Pre-print
 
-* **Xiawu Zheng**, Rongrong Ji, Lang Tang, Yan Wan, Baochang Zhang,Yongjian Wu, Yunsheng Wu
+* **Xiawu Zheng**, Rongrong Ji, Lang Tang, Yan Wan, Baochang Zhang, Yongjian Wu, Yunsheng Wu
+
 , Ling Shao. [Dynamic Distribution Pruning for Efficient Network Architecture Search.](https://arxiv.org/pdf/1905.13543.pdf) In Arxiv 2019 [[code](https://github.com/tanglang96/DDPNAS)]
 
-### Conference:
+### Conference
+
+* Huixia Li, Chenqian Yan, Shaohui Lin, **Xiawu Zheng**,, Baochang Zhang, Fan Yang, Rongrong Ji. PAMS: Quantized Super-Resolution via Parameterized Max Scale. ECCV, 2020.
 
 * **Xiawu Zheng**, Rongrong Ji*, Qiang Wang, Qixiang Ye, Zhenguo Li, Yonghong Tian, Qi Tian. [Rethinking Performance Estimation in Neural Architecture Search.](https://arxiv.org/abs/2005.09917) [[code](https://github.com/zhengxiawu/rethinking_performance_estimation_in_NAS)] In CVPR2020.
 
@@ -37,3 +41,7 @@ I am a second-year PhD candidate at MAC Lab, School of Informatics, Xiamen Unive
 * AutoDL 2019: the final challenge in 2019 AutoDL challenges series, Rank 1st.
 
 * AutoCV2 2019: IMAGE + VIDEO Automated Computer Vision challenge, Rank 2st / 34 teams.
+
+## Project
+
+* [XNAS](https://github.com/zhengxiawu/XNAS) framework
