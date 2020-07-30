@@ -22,7 +22,7 @@ I am a second-year PhD candidate at MAC Lab, School of Informatics, Xiamen Unive
 
 ### Conference
 
-* Huixia Li, Chenqian Yan, Shaohui Lin, **Xiawu Zheng**,, Baochang Zhang, Fan Yang, Rongrong Ji. PAMS: Quantized Super-Resolution via Parameterized Max Scale. ECCV, 2020.
+* Huixia Li, Chenqian Yan, Shaohui Lin, **Xiawu Zheng**, Baochang Zhang, Fan Yang, Rongrong Ji. PAMS: Quantized Super-Resolution via Parameterized Max Scale. ECCV, 2020.
 
 * **Xiawu Zheng**, Rongrong Ji*, Qiang Wang, Qixiang Ye, Zhenguo Li, Yonghong Tian, Qi Tian. [Rethinking Performance Estimation in Neural Architecture Search.](https://arxiv.org/abs/2005.09917) [[code](https://github.com/zhengxiawu/rethinking_performance_estimation_in_NAS)] In CVPR2020.
 
