@@ -18,9 +18,7 @@ I am a second-year PhD candidate at MAC Lab, School of Informatics, Xiamen Unive
 
 ### Pre-print
 
-* **Xiawu Zheng**, Rongrong Ji, Lang Tang, Yan Wan, Baochang Zhang, Yongjian Wu, Yunsheng Wu
-
-, Ling Shao. [Dynamic Distribution Pruning for Efficient Network Architecture Search.](https://arxiv.org/pdf/1905.13543.pdf) In Arxiv 2019 [[code](https://github.com/tanglang96/DDPNAS)]
+* **Xiawu Zheng**, Rongrong Ji, Lang Tang, Yan Wan, Baochang Zhang, Yongjian Wu, Yunsheng Wu, Ling Shao. [Dynamic Distribution Pruning for Efficient Network Architecture Search.](https://arxiv.org/pdf/1905.13543.pdf) In Arxiv 2019 [[code](https://github.com/tanglang96/DDPNAS)]
 
 ### Conference
 
