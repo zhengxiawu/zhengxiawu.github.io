@@ -84,18 +84,18 @@ footer {
 
 .profile {
   display: grid;
-  grid-template-columns: 280px 1fr;
+  grid-template-columns: 240px 1fr;
   gap: 30px;
   align-items: start;
 }
 
 .profile-photo img {
   display: block;
-  width: 260px;
-  height: 340px;
+  width: 220px;
+  height: 220px;
   border: 1px solid #d5d5d5;
   object-fit: cover;
-  object-position: center top;
+  object-position: center center;
 }
 
 .profile-text {
