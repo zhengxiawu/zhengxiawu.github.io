@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="154" height="96" viewBox="0 0 154 96">
+  <defs>
+    <style>.bg{fill:#fbfcff}.line{fill:none;stroke:#365f9c;stroke-width:3.2;stroke-linecap:round;stroke-linejoin:round}.thin{fill:none;stroke:#758bae;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}.blue{fill:#dce9ff;stroke:#3e6fb6;stroke-width:2.2}.green{fill:#e2f4e8;stroke:#3a8f63;stroke-width:2.2}.gold{fill:#fff0c9;stroke:#c7901d;stroke-width:2.2}.rose{fill:#ffe1e4;stroke:#c65b68;stroke-width:2.2}.ink{fill:#253042}.muted{fill:#edf2f8}.dot{fill:#3e6fb6}.ok{fill:#3a8f63}.warn{fill:#c7901d}.txt{font:700 18px Georgia,serif;fill:#253042;text-anchor:middle}</style>
+  </defs>
+  <symbol id="thumb-socialomni" viewBox="0 0 154 96">
+    <rect class="bg" width="154" height="96"/>
+    <circle class="blue" cx="42" cy="49" r="24"/><path class="line" d="M31 49h22M42 38v22"/><path class="thin" d="M73 26c14 12 14 34 0 45"/><rect class="green" x="93" y="31" width="44" height="36" rx="12"/><path class="line" d="M103 49h25M110 39l-10 10 10 10M121 39l10 10-10 10"/><circle class="warn" cx="132" cy="24" r="8"/>
+  </symbol>
+  <symbol id="thumb-a2rbench" viewBox="0 0 154 96">
+    <rect class="bg" width="154" height="96"/>
+    <rect class="gold" x="22" y="32" width="36" height="42" rx="7"/><path class="thin" d="M32 44h16M32 54h16M32 64h16"/><path class="line" d="M69 53h22"/><path class="line" d="M85 44l10 9-10 9"/><rect class="blue" x="101" y="26" width="36" height="54" rx="10"/><path class="thin" d="M111 42h16M111 53h16M111 64h16"/><circle class="ok" cx="135" cy="54" r="11"/><path class="thin" d="M130 54l4 4 8-10"/>
+  </symbol>
+  <symbol id="thumb-quota" viewBox="0 0 154 96">
+    <rect class="bg" width="154" height="96"/>
+    <rect class="blue" x="17" y="37" width="39" height="24" rx="12"/><circle class="dot" cx="37" cy="49" r="4"/><path class="line" d="M66 49h22"/><rect class="muted" x="95" y="27" width="40" height="45" rx="8"/><rect class="gold" x="101" y="37" width="10" height="26" rx="3"/><rect class="green" x="115" y="31" width="10" height="34" rx="3"/><rect class="rose" x="129" y="41" width="10" height="22" rx="3"/><path class="thin" d="M91 80h52"/><circle class="dot" cx="115" cy="80" r="5"/>
+  </symbol>
+  <symbol id="thumb-video-rag" viewBox="0 0 154 96">
+    <rect class="bg" width="154" height="96"/>
+    <rect class="blue" x="17" y="32" width="48" height="36" rx="6"/><path class="thin" d="M29 32v36M52 32v36"/><path class="line" d="M74 50h17"/><circle class="gold" cx="102" cy="50" r="17"/><path class="line" d="M94 50h16"/><path class="line" d="M121 50h12"/><rect class="green" x="135" y="34" width="14" height="32" rx="7"/>
+  </symbol>
+  <symbol id="thumb-vita15" viewBox="0 0 154 96">
+    <rect class="bg" width="154" height="96"/>
+    <rect class="blue" x="21" y="35" width="34" height="27" rx="7"/><circle class="dot" cx="38" cy="49" r="8"/><path class="line" d="M71 66c6-34 15-34 21 0s15 34 21 0"/><rect class="green" x="122" y="31" width="27" height="40" rx="13"/><circle class="ink" cx="132" cy="46" r="3"/><circle class="ink" cx="142" cy="46" r="3"/><path class="thin" d="M131 58c5 3 10 3 15 0"/>
+  </symbol>
+  <symbol id="thumb-video-mme" viewBox="0 0 154 96">
+    <rect class="bg" width="154" height="96"/>
+    <rect class="blue" x="18" y="34" width="49" height="36" rx="6"/><path class="thin" d="M31 34v36M43 34v36M55 34v36"/><polygon class="green" points="111,19 142,42 130,80 92,80 80,42"/><path class="line" d="M111 51l21-9M111 51l19 29M111 51l-19 29M111 51l-31-9"/><circle class="dot" cx="111" cy="51" r="5"/>
+  </symbol>
+  <symbol id="thumb-mme" viewBox="0 0 154 96">
+    <rect class="bg" width="154" height="96"/>
+    <rect class="blue" x="22" y="34" width="26" height="26" rx="6"/><rect class="green" x="62" y="34" width="26" height="26" rx="6"/><rect class="gold" x="102" y="34" width="26" height="26" rx="6"/><path class="line" d="M35 74h80"/><circle class="dot" cx="35" cy="74" r="6"/><circle class="ok" cx="75" cy="74" r="6"/><circle class="warn" cx="115" cy="74" r="6"/>
+  </symbol>
+  <symbol id="thumb-metagpt" viewBox="0 0 154 96">
+    <rect class="bg" width="154" height="96"/>
+    <circle class="blue" cx="43" cy="55" r="16"/><circle class="green" cx="78" cy="34" r="16"/><circle class="gold" cx="113" cy="56" r="16"/><path class="thin" d="M58 47l6-4M92 43l8 6M59 57h38"/><rect class="rose" x="58" y="73" width="40" height="12" rx="5"/><path class="thin" d="M69 79h18"/>
+  </symbol>
+  <symbol id="thumb-good-estimation" viewBox="0 0 154 96">
+    <rect class="bg" width="154" height="96"/>
+    <circle class="blue" cx="23" cy="51" r="9"/><circle class="green" cx="57" cy="29" r="9"/><circle class="gold" cx="60" cy="72" r="9"/><circle class="rose" cx="94" cy="52" r="9"/><path class="line" d="M32 49l17-14M32 55l19 13M66 34l20 14M69 69l17-13"/><path class="line" d="M107 72a18 18 0 1 1 28 0"/><path class="line" d="M121 60l12-14"/><circle class="dot" cx="121" cy="60" r="5"/>
+  </symbol>
+  <symbol id="thumb-itpruner" viewBox="0 0 154 96">
+    <rect class="bg" width="154" height="96"/>
+    <circle class="blue" cx="30" cy="34" r="8"/><circle class="blue" cx="30" cy="62" r="8"/><circle class="green" cx="66" cy="34" r="8"/><circle class="green" cx="66" cy="62" r="8"/><circle class="gold" cx="102" cy="34" r="8"/><circle class="gold" cx="102" cy="62" r="8"/><circle class="rose" cx="66" cy="48" r="7" opacity=".35"/><path class="line" d="M38 34h20M38 62h20M74 34h20M74 62h20M38 34l20 28M38 62l20-28M74 34l20 28"/><path class="line" d="M116 49h25"/><path class="line" d="M133 39l10 10-10 10"/>
+  </symbol>
+  <symbol id="thumb-adaptive-fpl" viewBox="0 0 154 96">
+    <rect class="bg" width="154" height="96"/>
+    <rect class="blue" x="24" y="31" width="44" height="38" rx="9"/><path class="green" d="M39 65c-17-11-5-33 14-23 17 9 6 33-14 23z"/><path class="line" d="M86 72c9-33 19-43 31-19s20 10 29-17"/><path class="thin" d="M84 72h60M84 28v44"/>
+  </symbol>
+  <symbol id="thumb-oversmoothing" viewBox="0 0 154 96">
+    <rect class="bg" width="154" height="96"/>
+    <rect class="rose" x="22" y="32" width="35" height="34" rx="6"/><path class="thin" d="M30 43h18M30 52h18M30 61h18"/><path class="line" d="M69 50h23"/><path class="line" d="M84 40l10 10-10 10"/><rect class="green" x="106" y="32" width="35" height="34" rx="6"/><path class="line" d="M114 57c8-15 15-15 22 0"/><path class="thin" d="M114 44h18"/>
+  </symbol>
+  <symbol id="thumb-transformer-nas" viewBox="0 0 154 96">
+    <rect class="bg" width="154" height="96"/>
+    <rect class="blue" x="21" y="33" width="24" height="34" rx="5"/><rect class="green" x="57" y="25" width="24" height="50" rx="5"/><rect class="gold" x="93" y="36" width="24" height="28" rx="5"/><path class="thin" d="M45 50h12M81 50h12"/><path class="line" d="M129 75c5-34 14-45 24-24"/><circle class="dot" cx="129" cy="75" r="5"/><circle class="ok" cx="153" cy="51" r="5"/>
+  </symbol>
+  <symbol id="thumb-ddpnas" viewBox="0 0 154 96">
+    <rect class="bg" width="154" height="96"/>
+    <path class="line" d="M20 66c10-32 22-32 34 0s24 32 36 0 22-32 34 0"/><path class="thin" d="M20 75h105"/><path class="rose" d="M101 23h42l-15 58h-11z"/><path class="thin" d="M108 37h26M111 51h20"/>
+  </symbol>
+  <symbol id="thumb-migo-nas" viewBox="0 0 154 96">
+    <rect class="bg" width="154" height="96"/>
+    <path class="thin" d="M24 76h88M24 76V25"/><path class="line" d="M33 68c22-22 41-28 58-15s26 0 34-17"/><circle class="blue" cx="33" cy="68" r="6"/><circle class="green" cx="91" cy="53" r="7"/><circle class="gold" cx="125" cy="36" r="7"/><path d="M105 68l29 14-25 8z" fill="#fff" stroke="#fff" stroke-width="7" stroke-linejoin="round"/><path class="rose" d="M105 68l29 14-25 8z"/>
+  </symbol>
+  <symbol id="thumb-evolving-automl" viewBox="0 0 154 96">
+    <rect class="bg" width="154" height="96"/>
+    <rect class="gold" x="20" y="61" width="31" height="15" rx="4"/><rect class="green" x="61" y="47" width="31" height="29" rx="5"/><rect class="blue" x="102" y="31" width="31" height="45" rx="5"/><path class="line" d="M51 61l10-7M92 47l10-8"/><circle class="dot" cx="31" cy="39" r="7"/><circle class="ok" cx="76" cy="27" r="7"/><circle class="warn" cx="123" cy="17" r="7"/>
+  </symbol>
+  <symbol id="thumb-binarized-nas" viewBox="0 0 154 96">
+    <rect class="bg" width="154" height="96"/>
+    <circle class="blue" cx="28" cy="47" r="13"/><circle class="green" cx="70" cy="47" r="13"/><circle class="gold" cx="112" cy="47" r="13"/><path class="line" d="M41 47h16M83 47h16"/><circle cx="68" cy="72" r="8" fill="#fff" stroke="#253042" stroke-width="3"/><circle class="ink" cx="94" cy="72" r="8"/><path class="thin" d="M79 72h6"/>
+  </symbol>
+</svg>
