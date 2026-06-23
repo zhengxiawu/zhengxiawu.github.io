@@ -193,9 +193,16 @@ footer {
   color: #333;
 }
 
-.role-tag {
+.corresponding-note,
+.corresponding-star {
   color: #8a4e00;
   font-weight: bold;
+}
+
+.corresponding-star {
+  margin-left: .08em;
+  font-size: 90%;
+  line-height: 0;
   white-space: nowrap;
 }
 
