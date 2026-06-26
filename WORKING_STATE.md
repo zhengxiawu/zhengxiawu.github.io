@@ -16,8 +16,11 @@
 - Do not use `SocialOmni` for the recent omni-style corresponding-author entry.
 - Prefer real framework/demo figures from the paper itself.
 - Keep corresponding-author marking evidence-backed only.
+- In selected journal papers, prioritize first-author papers and drop non-first-author entries.
+- Journal thumbnails should show complete framework/demo regions rather than partial crops.
 
 ## Current Revision Goal
 
 - Replace the conflicted `SocialOmni` recent-work entry with the evidence-backed training-free orchestration paper.
 - Keep recent highlighted works aligned with mailbox and paper-front-page evidence.
+- Rebuild the journal-section thumbnails for `Good Performance Estimation`, `ITPruner`, and `A2RBench`.
