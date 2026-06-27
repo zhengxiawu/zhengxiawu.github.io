@@ -130,10 +130,6 @@ footer {
   margin-top: 1em;
 }
 
-.links a {
-  white-space: nowrap;
-}
-
 .research-tags {
   margin-top: 1em;
   color: #333;
@@ -147,35 +143,6 @@ footer {
   color: #555;
   font-size: 96%;
   text-align: left;
-}
-
-.impact-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-  margin: .65em 0 .45em;
-}
-
-.impact-card {
-  padding: 10px 12px;
-  border: 1px solid #d7d7d7;
-  background: #fafafa;
-}
-
-.impact-number {
-  display: block;
-  color: #111;
-  font-size: 135%;
-  font-weight: bold;
-  line-height: 1.1;
-}
-
-.impact-label {
-  display: block;
-  margin-top: .22em;
-  color: #555;
-  font-size: 88%;
-  line-height: 1.2;
 }
 
 .pub {
@@ -267,10 +234,6 @@ footer {
   .profile-photo img {
     width: min(260px, 78vw);
     height: auto;
-  }
-
-  .impact-grid {
-    grid-template-columns: repeat(2, 1fr);
   }
 
   .pub {
