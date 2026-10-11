@@ -264,6 +264,38 @@
     }
   },
   {
+    "id": "bytedance",
+    "logo": {"src": "images/logos/bytedance-official-20261011.svg", "en": "ByteDance", "zh": "字节跳动", "theme": "dark"},
+    "evaluation": {
+      "en": "Evaluation focuses on generation quality, inference latency, throughput, peak memory and low-bit quantization accuracy.",
+      "zh": "评价指标包括生成质量、推理时延、吞吐量、峰值显存和低比特量化精度。"
+    },
+    "en": {
+      "period": "April 2022 - April 2023",
+      "title": "ByteDance Text-to-Image and Text-to-Video Model Acceleration, Compression and Quantization",
+      "sponsor": "ByteDance",
+      "role": "Project Leader",
+      "summary": "I lead acceleration, compression and low-bit quantization R&D for text-to-image and text-to-video models.",
+      "details": [
+        "The collaboration focuses on efficient inference for text-to-image and text-to-video generation, optimizing diffusion sampling, model structures and redundant computation to improve generation speed.",
+        "As project leader, I lead the technical roadmap and core algorithm R&D in model compression, low-bit weight and activation quantization, and efficient generation inference.",
+        "The work reduces computing and memory requirements while preserving image quality, prompt alignment and temporal consistency in video generation, supporting efficient deployment of generative models."
+      ]
+    },
+    "zh": {
+      "period": "2022年4月—2023年4月",
+      "title": "字节跳动文生图与文生视频模型加速、压缩与量化",
+      "sponsor": "字节跳动",
+      "role": "项目负责人 / Project Leader",
+      "summary": "本人主导文生图与文生视频模型的推理加速、模型压缩和低比特量化研发。",
+      "details": [
+        "合作面向文生图与文生视频模型的高效推理，优化扩散采样过程、模型结构与冗余计算，提升图像和视频生成速度。",
+        "本人作为项目负责人，主导技术路线与核心算法研发，开展模型压缩、权重与激活低比特量化及生成模型推理优化。",
+        "相关工作在保持图像生成质量、文本语义一致性和视频时序连贯性的同时，降低计算与显存开销，支持生成式模型高效部署。"
+      ]
+    }
+  },
+  {
     "id": "tencent",
     "logo": {"src": "images/logos/tencent-official-20261009.png", "en": "Tencent", "zh": "腾讯"},
     "evaluation": {

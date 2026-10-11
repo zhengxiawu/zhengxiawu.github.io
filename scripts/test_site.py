@@ -166,12 +166,27 @@ class SiteTest(unittest.TestCase):
         sun = next(person for person in masters if person["zh"]["name"] == "孙颢城")
         self.assertEqual(sun["en"]["internship"], "Tencent Youtu")
 
+    def test_project_leaders_precede_other_roles_and_dates_descend(self):
+        projects = json.loads((ROOT / "data/projects.json").read_text(encoding="utf-8"))
+        by_id = {project["id"]: project for project in projects}
+        ordered = [by_id[project_id] for project_id in INDUSTRY_IDS]
+        priorities = [project["en"]["role"] != "Project Leader" for project in ordered]
+        self.assertEqual(priorities, sorted(priorities))
+        for is_other in (False, True):
+            years = []
+            for project, priority in zip(ordered, priorities):
+                if priority == is_other:
+                    match = re.search(r"\b20\d{2}\b", project["en"]["period"])
+                    years.append(int(match.group()) if match else 0)
+            self.assertEqual(years, sorted(years, reverse=True))
+        self.assertEqual(by_id["bytedance"]["zh"]["period"], "2022年4月—2023年4月")
+
     def test_all_project_details_and_roles(self):
         projects = json.loads((ROOT / "data/projects.json").read_text(encoding="utf-8"))
         self.assertEqual(
             [project["id"] for project in projects],
             ["nsfc", "postdoc-innovation", "postdoc-general", "xiaomi", "mindpipe",
-             "alibaba", "honor", "vivo", "tencent", "didi", "oppo", "pengcheng",
+             "alibaba", "honor", "vivo", "bytedance", "tencent", "didi", "oppo", "pengcheng",
              "huawei-multi-strategy-compression", "huawei-carbu", "hisilicon"],
         )
         for project in projects:
@@ -198,7 +213,7 @@ class SiteTest(unittest.TestCase):
         mindpipe = next(project for project in projects if project["id"] == "mindpipe")
         self.assertEqual(mindpipe["en"]["role"], "Project Leader")
         for project in projects:
-            if project["id"] in ("hisilicon", "huawei-carbu", "alibaba", "honor", "vivo", "oppo"):
+            if project["id"] in ("hisilicon", "huawei-carbu", "alibaba", "honor", "vivo", "oppo", "bytedance"):
                 self.assertEqual(project["en"]["role"], "Project Leader")
                 self.assertEqual(project["zh"]["role"], "项目负责人 / Project Leader")
                 self.assertIn("As project leader", " ".join(project["en"]["details"]))
@@ -283,8 +298,8 @@ class SiteTest(unittest.TestCase):
     def test_project_figures_are_responsive_and_attributed(self):
         projects = json.loads((ROOT / "data/projects.json").read_text(encoding="utf-8"))
         media = json.loads((ROOT / "data/project-media.json").read_text(encoding="utf-8"))
-        illustrated = [project for project in projects if project["id"] in INDUSTRY_IDS]
-        self.assertEqual(set(media), set(INDUSTRY_IDS))
+        illustrated = [project for project in projects if project["id"] in media]
+        self.assertEqual(set(media), set(INDUSTRY_IDS) - {"bytedance"})
         for project in illustrated:
             figure = media[project["id"]]
             raw = (ROOT / figure["src"]).read_bytes()
@@ -347,7 +362,7 @@ class SiteTest(unittest.TestCase):
                 text = self.texts[pages[page]]
                 self.assertEqual(text.count('class="project-role"'),
                                  len(INDUSTRY_IDS) + len(SUPPORT_IDS))
-                self.assertEqual(text.count("Project Leader</strong>"), 7)
+                self.assertEqual(text.count("Project Leader</strong>"), 8)
 
     def test_removed_results_and_enterprise_claim_boundaries(self):
         projects = json.loads((ROOT / "data/projects.json").read_text(encoding="utf-8"))

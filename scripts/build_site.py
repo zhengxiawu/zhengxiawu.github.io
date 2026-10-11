@@ -15,8 +15,9 @@ PAGES = {
     "zh": {"home": "zh.html", "students": "students-zh.html", "projects": "projects-zh.html"},
 }
 INDUSTRY_IDS = (
-    "huawei-multi-strategy-compression", "mindpipe", "huawei-carbu", "hisilicon",
-    "alibaba", "honor", "vivo", "tencent", "didi", "oppo",
+    "hisilicon", "mindpipe", "huawei-carbu", "bytedance",
+    "alibaba", "honor", "vivo", "oppo",
+    "huawei-multi-strategy-compression", "tencent", "didi",
 )
 SUPPORT_IDS = ("nsfc", "postdoc-innovation", "postdoc-general", "pengcheng", "xiaomi")
 
