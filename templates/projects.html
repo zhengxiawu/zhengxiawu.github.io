@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="{{projects_description}}" />
+  <title>{{projects_heading}} - Xiawu Zheng</title>
+  {{alternate_links}}
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#layout-content">{{skip}}</a>
+  {{navigation}}
+  <main id="layout-content">
+    <header class="page-heading">
+      <p class="eyebrow">Xiawu Zheng / 郑侠武</p>
+      <h1>{{projects_heading}}</h1>
+    </header>
+    <nav class="project-index-nav" aria-label="{{projects_label}}">
+      {{project_index}}
+    </nav>
+    <section class="project-details">
+      <h2>{{industry_heading}}</h2>
+      {{projects}}
+    </section>
+    <section id="research-support">
+      <h2>{{support_heading}}</h2>
+      {{support_projects}}
+    </section>
+  </main>
+</body>
+</html>

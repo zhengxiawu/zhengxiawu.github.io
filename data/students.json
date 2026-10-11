@@ -1,0 +1,548 @@
+[
+  {
+    "id": "phd",
+    "en": {
+      "heading": "PhD Students"
+    },
+    "zh": {
+      "heading": "在读博士"
+    },
+    "columns": [
+      {
+        "key": "name",
+        "en": "Name",
+        "zh": "姓名"
+      },
+      {
+        "key": "year",
+        "en": "Year (Autumn 2026)",
+        "zh": "年级（2026秋）"
+      },
+      {
+        "key": "internship",
+        "en": "Internship",
+        "zh": "实习情况"
+      }
+    ],
+    "people": [
+      {
+        "en": {
+          "name": "Yuhang Wu / 吴宇航",
+          "year": "Year 4 (entered 2023)",
+          "internship": "ByteDance"
+        },
+        "zh": {
+          "name": "吴宇航",
+          "year": "博四（2023级）",
+          "internship": "字节跳动"
+        }
+      },
+      {
+        "en": {
+          "name": "Zhigang Chen / 陈志刚",
+          "year": "Year 3 (entered 2024)",
+          "internship": "Meitu; CATL"
+        },
+        "zh": {
+          "name": "陈志刚",
+          "year": "博三（2024级）",
+          "internship": "美图、宁德时代"
+        }
+      },
+      {
+        "en": {
+          "name": "Guilin Li / 李桂林",
+          "year": "Year 3 (entered 2024)",
+          "internship": "Tencent"
+        },
+        "zh": {
+          "name": "李桂林",
+          "year": "博三（2024级）",
+          "internship": "腾讯"
+        }
+      },
+      {
+        "en": {
+          "name": "Weizhong Huang / 黄伟中",
+          "year": "Year 2 (entered 2025)",
+          "internship": "Tencent Rhino-Bird Elite Talent Program"
+        },
+        "zh": {
+          "name": "黄伟中",
+          "year": "博二（2025级）",
+          "internship": "腾讯犀牛鸟精英人才计划"
+        }
+      },
+      {
+        "en": {
+          "name": "Wenjie Nie / 聂文杰",
+          "year": "Year 2 (entered 2025)",
+          "internship": ""
+        },
+        "zh": {
+          "name": "聂文杰",
+          "year": "博二（2025级）",
+          "internship": ""
+        }
+      },
+      {
+        "en": {
+          "name": "Xudong Li / 李旭东",
+          "year": "Year 2 (entered 2025)",
+          "internship": "Tencent"
+        },
+        "zh": {
+          "name": "李旭东",
+          "year": "博二（2025级）",
+          "internship": "腾讯"
+        }
+      },
+      {
+        "en": {
+          "name": "Sibin Cai / 蔡思彬",
+          "year": "Year 1 (entered 2026)",
+          "internship": ""
+        },
+        "zh": {
+          "name": "蔡思彬",
+          "year": "博一（2026级）",
+          "internship": ""
+        }
+      },
+      {
+        "en": {
+          "name": "Wang Chen / 陈旺",
+          "year": "Year 1 (entered 2026)",
+          "internship": ""
+        },
+        "zh": {
+          "name": "陈旺",
+          "year": "博一（2026级）",
+          "internship": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "masters",
+    "en": {
+      "heading": "Master's Students"
+    },
+    "zh": {
+      "heading": "在读硕士"
+    },
+    "columns": [
+      {
+        "key": "name",
+        "en": "Name",
+        "zh": "姓名"
+      },
+      {
+        "key": "year",
+        "en": "Year (Autumn 2026)",
+        "zh": "年级（2026秋）"
+      },
+      {
+        "key": "internship",
+        "en": "Internship",
+        "zh": "实习情况"
+      }
+    ],
+    "people": [
+      {
+        "en": {
+          "name": "Haocheng Sun / 孙颢城",
+          "year": "Year 3 (entered 2024)",
+          "internship": "Tencent Youtu"
+        },
+        "zh": {
+          "name": "孙颢城",
+          "year": "研三（2024级）",
+          "internship": "腾讯优图"
+        }
+      },
+      {
+        "en": {
+          "name": "Yuhui Zeng / 曾宇晖",
+          "year": "Year 3 (entered 2024)",
+          "internship": "Kuaishou Kling: base-model data pipelines and post-training"
+        },
+        "zh": {
+          "name": "曾宇晖",
+          "year": "研三（2024级）",
+          "internship": "快手可灵：基模数据算子与后训练"
+        }
+      },
+      {
+        "en": {
+          "name": "Haoxiang Wu / 吴豪翔",
+          "year": "Year 3 (entered 2024)",
+          "internship": "vivo: multimodal large-model post-training; Ant Group: multimedia large-model post-training"
+        },
+        "zh": {
+          "name": "吴豪翔",
+          "year": "研三（2024级）",
+          "internship": "vivo：多模态大模型后训练；蚂蚁集团：多媒体大模型后训练"
+        }
+      },
+      {
+        "en": {
+          "name": "Kunpeng Liao / 廖锟鹏",
+          "year": "Year 3 (entered 2024)",
+          "internship": "Baidu: large-model pre-training; 新研智材: Agent development"
+        },
+        "zh": {
+          "name": "廖锟鹏",
+          "year": "研三（2024级）",
+          "internship": "百度：大模型预训练；新研智材：Agent开发"
+        }
+      },
+      {
+        "en": {
+          "name": "Jing Xu / 许靖",
+          "year": "Year 3 (entered 2024)",
+          "internship": "ByteDance: model optimization"
+        },
+        "zh": {
+          "name": "许靖",
+          "year": "研三（2024级）",
+          "internship": "字节跳动：模型优化"
+        }
+      },
+      {
+        "en": {
+          "name": "Qingchuan Ma / 马晴川",
+          "year": "Year 2 (entered 2025)",
+          "internship": ""
+        },
+        "zh": {
+          "name": "马晴川",
+          "year": "研二（2025级）",
+          "internship": ""
+        }
+      },
+      {
+        "en": {
+          "name": "Tianyu Xie / 谢天宇",
+          "year": "Year 2 (entered 2025)",
+          "internship": "A startup: omni-modal real-time interaction large-model pre-training and post-training"
+        },
+        "zh": {
+          "name": "谢天宇",
+          "year": "研二（2025级）",
+          "internship": "某初创公司：全模态实时交互大模型预训练与后训练"
+        }
+      },
+      {
+        "en": {
+          "name": "Haoyu Huang / 黄皓禹",
+          "year": "Year 2 (entered 2025)",
+          "internship": "ByteDance: agentic large-model optimization"
+        },
+        "zh": {
+          "name": "黄皓禹",
+          "year": "研二（2025级）",
+          "internship": "字节跳动：Agentic大模型优化"
+        }
+      },
+      {
+        "en": {
+          "name": "Chengwu Long / 龙成武",
+          "year": "Year 2 (entered 2025)",
+          "internship": "JD.com: AI infrastructure and inference acceleration"
+        },
+        "zh": {
+          "name": "龙成武",
+          "year": "研二（2025级）",
+          "internship": "京东：AI Infra推理加速"
+        }
+      },
+      {
+        "en": {
+          "name": "Xinxiong Wu / 吴鑫雄",
+          "year": "Year 2 (entered 2025)",
+          "internship": "Ant Group: infrastructure and model quantization"
+        },
+        "zh": {
+          "name": "吴鑫雄",
+          "year": "研二（2025级）",
+          "internship": "蚂蚁集团：Infra与模型量化"
+        }
+      },
+      {
+        "en": {
+          "name": "Jinsen Su / 苏锦森",
+          "year": "Year 2 (entered 2025)",
+          "internship": "Meituan: multimodal large-model evaluation"
+        },
+        "zh": {
+          "name": "苏锦森",
+          "year": "研二（2025级）",
+          "internship": "美团：多模态大模型评测"
+        }
+      },
+      {
+        "en": {
+          "name": "Yue Zhang / 张岳",
+          "year": "Year 2 (entered 2025)",
+          "internship": "Xiaomi: language-model and multimodal-model quantization"
+        },
+        "zh": {
+          "name": "张岳",
+          "year": "研二（2025级）",
+          "internship": "小米：语言模型与多模态模型量化"
+        }
+      },
+      {
+        "en": {
+          "name": "Zheng Xuzhe / 郑旭哲",
+          "year": "Year 2 (entered 2025)",
+          "internship": "Ant Group: LLM infrastructure, quantization and sparsity"
+        },
+        "zh": {
+          "name": "郑旭哲",
+          "year": "研二（2025级）",
+          "internship": "蚂蚁集团：LLM Infra量化与稀疏化"
+        }
+      },
+      {
+        "en": {
+          "name": "Zhuoqi Song / 宋卓奇",
+          "year": "Year 2 (entered 2025)",
+          "internship": ""
+        },
+        "zh": {
+          "name": "宋卓奇",
+          "year": "研二（2025级）",
+          "internship": ""
+        }
+      },
+      {
+        "en": {
+          "name": "Xiaoyao Xie / 谢骁尧",
+          "year": "Year 2 (entered 2025)",
+          "internship": ""
+        },
+        "zh": {
+          "name": "谢骁尧",
+          "year": "研二（2025级）",
+          "internship": ""
+        }
+      },
+      {
+        "en": {
+          "name": "Huaijia Kou / 寇怀佳",
+          "year": "Year 1 (entered 2026)",
+          "internship": ""
+        },
+        "zh": {
+          "name": "寇怀佳",
+          "year": "研一（2026级）",
+          "internship": ""
+        }
+      },
+      {
+        "en": {
+          "name": "Dibo Lin / 林地波",
+          "year": "Year 1 (entered 2026)",
+          "internship": ""
+        },
+        "zh": {
+          "name": "林地波",
+          "year": "研一（2026级）",
+          "internship": ""
+        }
+      },
+      {
+        "en": {
+          "name": "Xinhai Ma / 马心海",
+          "year": "Year 1 (entered 2026)",
+          "internship": ""
+        },
+        "zh": {
+          "name": "马心海",
+          "year": "研一（2026级）",
+          "internship": ""
+        }
+      },
+      {
+        "en": {
+          "name": "Zhicheng Liu / 刘致成",
+          "year": "Year 1 (entered 2026)",
+          "internship": ""
+        },
+        "zh": {
+          "name": "刘致成",
+          "year": "研一（2026级）",
+          "internship": ""
+        }
+      },
+      {
+        "en": {
+          "name": "Kefei Wu / 吴柯非",
+          "year": "Year 1 (entered 2026)",
+          "internship": ""
+        },
+        "zh": {
+          "name": "吴柯非",
+          "year": "研一（2026级）",
+          "internship": ""
+        }
+      },
+      {
+        "en": {
+          "name": "Yufei Jiao / 焦雨飞",
+          "year": "Year 1 (entered 2026)",
+          "internship": "JD.com"
+        },
+        "zh": {
+          "name": "焦雨飞",
+          "year": "研一（2026级）",
+          "internship": "京东"
+        }
+      },
+      {
+        "en": {
+          "name": "Yongkang Xie / 谢勇康",
+          "year": "Year 1 (entered 2026)",
+          "internship": ""
+        },
+        "zh": {
+          "name": "谢勇康",
+          "year": "研一（2026级）",
+          "internship": ""
+        }
+      },
+      {
+        "en": {
+          "name": "Minghua Wu / 吴铭华",
+          "year": "Year 1 (entered 2026)",
+          "internship": ""
+        },
+        "zh": {
+          "name": "吴铭华",
+          "year": "研一（2026级）",
+          "internship": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "alumni",
+    "en": {
+      "heading": "Alumni and Career Destinations"
+    },
+    "zh": {
+      "heading": "毕业生与去向"
+    },
+    "columns": [
+      {
+        "key": "name",
+        "en": "Name",
+        "zh": "姓名"
+      },
+      {
+        "key": "cohort",
+        "en": "Cohort",
+        "zh": "年级"
+      },
+      {
+        "key": "destination",
+        "en": "Career Destination",
+        "zh": "工作去向"
+      }
+    ],
+    "people": [
+      {
+        "en": {
+          "name": "谢展豪",
+          "degree": "Master's",
+          "cohort": "Entered 2023",
+          "destination": "Tencent; Qingyun Program"
+        },
+        "zh": {
+          "name": "谢展豪",
+          "degree": "硕士",
+          "cohort": "2023级",
+          "destination": "腾讯，青云计划"
+        }
+      },
+      {
+        "en": {
+          "name": "王瑞霖",
+          "degree": "Master's",
+          "cohort": "Entered 2023",
+          "destination": "Tencent; Qingyun Program"
+        },
+        "zh": {
+          "name": "王瑞霖",
+          "degree": "硕士",
+          "cohort": "2023级",
+          "destination": "腾讯，青云计划"
+        }
+      },
+      {
+        "en": {
+          "name": "Yongdong Luo / 罗咏东",
+          "degree": "Master's",
+          "cohort": "Entered 2023",
+          "destination": "Alibaba"
+        },
+        "zh": {
+          "name": "罗咏东",
+          "degree": "硕士",
+          "cohort": "2023级",
+          "destination": "阿里"
+        },
+        "links": [
+          {
+            "label": "QuoTA",
+            "url": "https://github.com/MAC-AutoML/QuoTA"
+          }
+        ]
+      },
+      {
+        "en": {
+          "name": "Chenyu Zhou / 周陈昱",
+          "degree": "Master's",
+          "cohort": "Entered 2023",
+          "destination": "Kuaishou"
+        },
+        "zh": {
+          "name": "周陈昱",
+          "degree": "硕士",
+          "cohort": "2023级",
+          "destination": "快手"
+        }
+      },
+      {
+        "en": {
+          "name": "蒋易耕",
+          "degree": "",
+          "cohort": "Entered 2023",
+          "destination": "Shanghai AI Laboratory"
+        },
+        "zh": {
+          "name": "蒋易耕",
+          "degree": "",
+          "cohort": "2023级",
+          "destination": "上海AI Lab"
+        }
+      },
+      {
+        "en": {
+          "name": "许希威",
+          "degree": "Master's",
+          "cohort": "Entered 2023",
+          "destination": ""
+        },
+        "zh": {
+          "name": "许希威",
+          "degree": "硕士",
+          "cohort": "2023级",
+          "destination": ""
+        }
+      }
+    ]
+  }
+]

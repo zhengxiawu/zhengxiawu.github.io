@@ -1,0 +1,142 @@
+{
+  "alibaba": {
+    "src": "images/projects/generated/alibaba.webp",
+    "width": 640,
+    "height": 267,
+    "kind": "ai_generated_concept",
+    "en": {
+      "alt": "Conceptual technical architecture illustration",
+      "caption": "AI-generated technical concept illustration."
+    },
+    "zh": {
+      "alt": "项目技术架构概念示意图",
+      "caption": "AI生成的技术概念示意图。"
+    }
+  },
+  "didi": {
+    "src": "images/projects/generated/didi.webp",
+    "width": 640,
+    "height": 308,
+    "kind": "ai_generated_concept",
+    "en": {
+      "alt": "Conceptual technical architecture illustration",
+      "caption": "AI-generated technical concept illustration."
+    },
+    "zh": {
+      "alt": "项目技术架构概念示意图",
+      "caption": "AI生成的技术概念示意图。"
+    }
+  },
+  "hisilicon": {
+    "src": "images/projects/generated/hisilicon.webp",
+    "width": 640,
+    "height": 463,
+    "kind": "ai_generated_concept",
+    "en": {
+      "alt": "Conceptual technical architecture illustration",
+      "caption": "AI-generated technical concept illustration."
+    },
+    "zh": {
+      "alt": "项目技术架构概念示意图",
+      "caption": "AI生成的技术概念示意图。"
+    }
+  },
+  "honor": {
+    "src": "images/projects/generated/honor.webp",
+    "width": 640,
+    "height": 228,
+    "kind": "ai_generated_concept",
+    "en": {
+      "alt": "Conceptual technical architecture illustration",
+      "caption": "AI-generated technical concept illustration."
+    },
+    "zh": {
+      "alt": "项目技术架构概念示意图",
+      "caption": "AI生成的技术概念示意图。"
+    }
+  },
+  "huawei-carbu": {
+    "src": "images/projects/generated/huawei-carbu.webp",
+    "width": 640,
+    "height": 159,
+    "kind": "ai_generated_concept",
+    "en": {
+      "alt": "Conceptual technical architecture illustration",
+      "caption": "AI-generated technical concept illustration."
+    },
+    "zh": {
+      "alt": "项目技术架构概念示意图",
+      "caption": "AI生成的技术概念示意图。"
+    }
+  },
+  "huawei-multi-strategy-compression": {
+    "src": "images/projects/generated/huawei-multi-strategy-compression.webp",
+    "width": 640,
+    "height": 281,
+    "kind": "ai_generated_concept",
+    "en": {
+      "alt": "Conceptual technical architecture illustration",
+      "caption": "AI-generated technical concept illustration."
+    },
+    "zh": {
+      "alt": "项目技术架构概念示意图",
+      "caption": "AI生成的技术概念示意图。"
+    }
+  },
+  "mindpipe": {
+    "src": "images/projects/generated/mindpipe.webp",
+    "width": 640,
+    "height": 218,
+    "kind": "ai_generated_concept",
+    "en": {
+      "alt": "Conceptual technical architecture illustration",
+      "caption": "AI-generated technical concept illustration."
+    },
+    "zh": {
+      "alt": "项目技术架构概念示意图",
+      "caption": "AI生成的技术概念示意图。"
+    }
+  },
+  "oppo": {
+    "src": "images/projects/generated/oppo.webp",
+    "width": 640,
+    "height": 179,
+    "kind": "ai_generated_concept",
+    "en": {
+      "alt": "Conceptual technical architecture illustration",
+      "caption": "AI-generated technical concept illustration."
+    },
+    "zh": {
+      "alt": "项目技术架构概念示意图",
+      "caption": "AI生成的技术概念示意图。"
+    }
+  },
+  "tencent": {
+    "src": "images/projects/generated/tencent.webp",
+    "width": 640,
+    "height": 330,
+    "kind": "ai_generated_concept",
+    "en": {
+      "alt": "Conceptual technical architecture illustration",
+      "caption": "AI-generated technical concept illustration."
+    },
+    "zh": {
+      "alt": "项目技术架构概念示意图",
+      "caption": "AI生成的技术概念示意图。"
+    }
+  },
+  "vivo": {
+    "src": "images/projects/generated/vivo.webp",
+    "width": 640,
+    "height": 173,
+    "kind": "ai_generated_concept",
+    "en": {
+      "alt": "Conceptual technical architecture illustration",
+      "caption": "AI-generated technical concept illustration."
+    },
+    "zh": {
+      "alt": "项目技术架构概念示意图",
+      "caption": "AI生成的技术概念示意图。"
+    }
+  }
+}
