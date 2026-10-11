@@ -138,7 +138,7 @@
     },
     "en": {
       "period": "2025 - 2027",
-      "title": "MindPipe: Automated Large-Model Compression and Quantization",
+      "title": "MindPIPE: Automated Large-Model Compression and Quantization",
       "sponsor": "Huawei",
       "role": "Project Leader",
       "summary": "I lead development of an automated compression framework for language and vision-language models, connecting core algorithms with GPU and Ascend deployment.",
@@ -150,7 +150,7 @@
     },
     "zh": {
       "period": "2025—2027年",
-      "title": "MindPipe：大模型自动压缩与量化框架",
+      "title": "MindPIPE：大模型自动压缩与量化框架",
       "sponsor": "华为",
       "role": "项目负责人 / Project Leader",
       "summary": "本人主导语言与视觉语言模型自动压缩框架研发，将核心算法与GPU、昇腾部署适配打通。",
@@ -233,7 +233,7 @@
   },
   {
     "id": "vivo",
-    "logo": {"src": "images/logos/vivo-official-20261009.svg", "en": "vivo", "zh": "vivo", "theme": "dark"},
+    "logo": {"src": "images/logos/vivo-official-20261009.svg", "en": "VIVO", "zh": "VIVO"},
     "evaluation": {
       "en": "Evaluation focuses on restoration quality, model size, memory use and on-device inference latency.",
       "zh": "评价指标包括图像恢复质量、模型规模、内存占用及终端推理时延。"
@@ -297,7 +297,7 @@
   },
   {
     "id": "didi",
-    "logo": {"src": "images/logos/didi-official-20261009.svg", "en": "DiDi", "zh": "滴滴", "theme": "dark"},
+    "logo": {"src": "images/logos/didi-official-20261009.svg", "en": "DiDi", "zh": "滴滴"},
     "evaluation": {
       "en": "Evaluation focuses on localization accuracy, retrieval latency, feature storage and large-scale matching efficiency.",
       "zh": "评价指标包括定位精度、检索时延、特征存储量及大规模匹配效率。"

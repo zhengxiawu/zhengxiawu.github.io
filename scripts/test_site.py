@@ -125,7 +125,7 @@ class SiteTest(unittest.TestCase):
             alumni_section = re.search(r'<section id="alumni">(.*?)</section>',
                                        text, re.DOTALL).group(1)
             self.assertNotIn("TEG", alumni_section)
-            self.assertNotIn("AI Infra", alumni_section)
+            self.assertIn("AI Infra", alumni_section)
             self.assertNotIn("Hunyuan", alumni_section)
             self.assertNotIn("混元", alumni_section)
             self.assertNotIn("Video-RAG", alumni_section)
@@ -136,7 +136,7 @@ class SiteTest(unittest.TestCase):
         groups = json.loads((ROOT / "data/students.json").read_text(encoding="utf-8"))
         self.assertEqual(
             {group["id"]: len(group["people"]) for group in groups},
-            {"phd": 8, "masters": 23, "alumni": 6},
+            {"phd": 8, "masters": 24, "alumni": 6},
         )
         names = []
         for group in groups:
@@ -152,7 +152,8 @@ class SiteTest(unittest.TestCase):
         self.assertEqual(len(names), len(set(names)))
         alumni = next(group for group in groups if group["id"] == "alumni")["people"]
         graduate = next(person for person in alumni if person["zh"]["name"] == "许希威")
-        self.assertFalse(graduate["zh"].get("destination"))
+        self.assertEqual(graduate["zh"]["destination"],
+                         "头部互联网企业人才计划（AI Infra方向）")
         for person in alumni:
             self.assertEqual(person["zh"]["cohort"], "2023级")
             self.assertEqual(person["en"]["cohort"], "Entered 2023")
@@ -239,7 +240,7 @@ class SiteTest(unittest.TestCase):
         people = {person["zh"]["name"]: person for group in groups for person in group["people"]}
         expected = {
             "曾宇晖": ("快手可灵：基模数据算子与后训练", "Kuaishou Kling"),
-            "吴豪翔": ("vivo：多模态大模型后训练；蚂蚁集团：多媒体大模型后训练", "vivo"),
+            "吴豪翔": ("vivo：多模态大模型后训练；蚂蚁集团：多模态大模型后训练", "vivo"),
             "廖锟鹏": ("百度：大模型预训练；新研智材：Agent开发", "Baidu"),
             "许靖": ("字节跳动：模型优化", "ByteDance"),
             "谢天宇": ("某初创公司：全模态实时交互大模型预训练与后训练", "A startup"),
@@ -259,7 +260,8 @@ class SiteTest(unittest.TestCase):
                               self.texts[PAGES[locale]["students"]])
                 self.assertNotRegex(person[locale]["internship"], r"2027|2028|届|水下")
         self.assertIn("Ant Group", people["吴豪翔"]["en"]["internship"])
-        self.assertIn("multimedia", people["吴豪翔"]["en"]["internship"])
+        self.assertIn("Ant Group: multimodal large-model post-training",
+                      people["吴豪翔"]["en"]["internship"])
         self.assertIn("新研智材", people["廖锟鹏"]["en"]["internship"])
         for person in people.values():
             for locale in ("en", "zh"):
@@ -547,8 +549,8 @@ class SiteTest(unittest.TestCase):
     def test_logos_load_eagerly_and_nsfc_mark_is_trimmed(self):
         projects = json.loads((ROOT / "data/projects.json").read_text(encoding="utf-8"))
         by_id = {project["id"]: project for project in projects}
-        for project_id in ("vivo", "didi"):
-            self.assertEqual(by_id[project_id]["logo"]["theme"], "dark")
+        for project_id in ("vivo", "didi", "oppo"):
+            self.assertNotEqual(by_id[project_id]["logo"].get("theme"), "dark")
         for filename, doc in self.docs.items():
             for image in doc.images:
                 if image.get("class", "").startswith("project-logo"):

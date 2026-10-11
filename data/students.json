@@ -177,12 +177,12 @@
         "en": {
           "name": "Haoxiang Wu / 吴豪翔",
           "year": "Year 3 (entered 2024)",
-          "internship": "vivo: multimodal large-model post-training; Ant Group: multimedia large-model post-training"
+          "internship": "vivo: multimodal large-model post-training; Ant Group: multimodal large-model post-training"
         },
         "zh": {
           "name": "吴豪翔",
           "year": "研三（2024级）",
-          "internship": "vivo：多模态大模型后训练；蚂蚁集团：多媒体大模型后训练"
+          "internship": "vivo：多模态大模型后训练；蚂蚁集团：多模态大模型后训练"
         }
       },
       {
@@ -403,24 +403,36 @@
       },
       {
         "en": {
-          "name": "Yongkang Xie / 谢勇康",
-          "year": "Year 1 (entered 2026)",
-          "internship": ""
-        },
-        "zh": {
-          "name": "谢勇康",
-          "year": "研一（2026级）",
-          "internship": ""
-        }
-      },
-      {
-        "en": {
           "name": "Minghua Wu / 吴铭华",
           "year": "Year 1 (entered 2026)",
           "internship": ""
         },
         "zh": {
           "name": "吴铭华",
+          "year": "研一（2026级）",
+          "internship": ""
+        }
+      },
+      {
+        "en": {
+          "name": "Yongbin Chen / 陈泳彬",
+          "year": "Year 1 (entered 2026)",
+          "internship": ""
+        },
+        "zh": {
+          "name": "陈泳彬",
+          "year": "研一（2026级）",
+          "internship": ""
+        }
+      },
+      {
+        "en": {
+          "name": "Weijie Wei / 魏炜杰",
+          "year": "Year 1 (entered 2026)",
+          "internship": ""
+        },
+        "zh": {
+          "name": "魏炜杰",
           "year": "研一（2026级）",
           "internship": ""
         }
@@ -528,13 +540,13 @@
           "name": "许希威",
           "degree": "Master's",
           "cohort": "Entered 2023",
-          "destination": ""
+          "destination": "Talent program at a leading internet company (AI Infra)"
         },
         "zh": {
           "name": "许希威",
           "degree": "硕士",
           "cohort": "2023级",
-          "destination": ""
+          "destination": "头部互联网企业人才计划（AI Infra方向）"
         }
       }
     ]
