@@ -493,13 +493,7 @@
           "degree": "硕士",
           "cohort": "2023级",
           "destination": "阿里"
-        },
-        "links": [
-          {
-            "label": "QuoTA",
-            "url": "https://github.com/MAC-AutoML/QuoTA"
-          }
-        ]
+        }
       },
       {
         "en": {

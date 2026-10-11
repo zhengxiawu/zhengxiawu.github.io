@@ -129,7 +129,7 @@ class SiteTest(unittest.TestCase):
             self.assertNotIn("Hunyuan", alumni_section)
             self.assertNotIn("混元", alumni_section)
             self.assertNotIn("Video-RAG", alumni_section)
-            self.assertIn("QuoTA", alumni_section)
+            self.assertNotIn("QuoTA", alumni_section)
         self.assertEqual(self.texts["students-zh.html"].count("青云计划"), 2)
 
     def test_full_roster_and_bilingual_fields(self):
