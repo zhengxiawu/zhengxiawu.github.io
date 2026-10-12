@@ -265,7 +265,7 @@
   },
   {
     "id": "bytedance",
-    "logo": {"src": "images/logos/bytedance-official-20261011.svg", "en": "ByteDance", "zh": "字节跳动", "theme": "dark"},
+    "logo": {"src": "images/logos/bytedance-color-20261012.png", "en": "ByteDance", "zh": "字节跳动"},
     "evaluation": {
       "en": "Evaluation focuses on generation quality, inference latency, throughput, peak memory and low-bit quantization accuracy.",
       "zh": "评价指标包括生成质量、推理时延、吞吐量、峰值显存和低比特量化精度。"
