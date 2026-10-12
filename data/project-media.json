@@ -1,4 +1,19 @@
 {
+  "bytedance": {
+    "src": "images/projects/generated/bytedance-text-to-image-20261012.webp",
+    "width": 640,
+    "height": 320,
+    "kind": "paper_demo_crop",
+    "source_url": "https://arxiv.org/html/2309.10438v2",
+    "en": {
+      "alt": "Text-to-image generation examples from AutoDiffusion",
+      "caption": "Text-to-image examples cropped from the AutoDiffusion paper."
+    },
+    "zh": {
+      "alt": "AutoDiffusion论文中的文生图示例",
+      "caption": "文生图示例，裁剪自AutoDiffusion论文原图。"
+    }
+  },
   "alibaba": {
     "src": "images/projects/generated/alibaba.webp",
     "width": 640,

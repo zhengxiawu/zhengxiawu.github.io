@@ -299,13 +299,13 @@ class SiteTest(unittest.TestCase):
         projects = json.loads((ROOT / "data/projects.json").read_text(encoding="utf-8"))
         media = json.loads((ROOT / "data/project-media.json").read_text(encoding="utf-8"))
         illustrated = [project for project in projects if project["id"] in media]
-        self.assertEqual(set(media), set(INDUSTRY_IDS) - {"bytedance"})
+        self.assertEqual(set(media), set(INDUSTRY_IDS))
         for project in illustrated:
             figure = media[project["id"]]
             raw = (ROOT / figure["src"]).read_bytes()
             self.assertEqual(raw[:4], b"RIFF")
             self.assertEqual(raw[8:12], b"WEBP")
-            self.assertEqual(figure["kind"], "ai_generated_concept")
+            self.assertIn(figure["kind"], ("ai_generated_concept", "paper_demo_crop"))
             for locale in ("en", "zh"):
                 page = PAGES[locale]["projects"]
                 images = [image for image in self.docs[page].images
@@ -416,6 +416,10 @@ class SiteTest(unittest.TestCase):
         self.assertNotIn("reported_metrics", by_id["mindpipe"])
         carbu = by_id["huawei-carbu"]
         self.assertEqual(carbu["zh"]["role"], "项目负责人 / Project Leader")
+        self.assertIn("智能驾驶", carbu["zh"]["title"])
+        self.assertIn("后训练量化", "".join(carbu["zh"]["details"]))
+        self.assertNotRegex(json.dumps(carbu["zh"], ensure_ascii=False),
+                            r"车BU|PTQ|QAT|PEFT|PFT")
         for locale in ("en", "zh"):
             text = json.dumps(carbu[locale], ensure_ascii=False)
             self.assertNotRegex(text, r"50%|30%|1%|2024|ADAS")

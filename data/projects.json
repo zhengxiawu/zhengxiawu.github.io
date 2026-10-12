@@ -462,24 +462,24 @@
     },
     "en": {
       "period": "2025",
-      "title": "Huawei Automotive BU: Low-Bit Quantization of Multimodal Large Models",
-      "sponsor": "Huawei Automotive BU",
+      "title": "Huawei: Model Compression and Quantization for Intelligent Driving",
+      "sponsor": "Huawei",
       "role": "Project Leader",
-      "summary": "Collaboration on low-bit quantization and efficient deployment of automotive multimodal large models.",
+      "summary": "Collaboration on model compression, low-bit quantization and efficient deployment of multimodal large models for intelligent driving.",
       "details": [
-        "The collaboration focuses on low-bit quantization of automotive multimodal large models, addressing inference bandwidth and deployment efficiency through weight and activation quantization and calibration strategies, including PTQ and QAT in PEFT settings.",
-        "As project leader, I lead the model quantization collaboration and coordinate technical development."
+        "The collaboration focuses on compression and quantization of multimodal large models for intelligent driving, addressing inference bandwidth and deployment efficiency through low-bit weight and activation quantization and calibration strategies, including post-training quantization and quantization-aware training with parameter-efficient fine-tuning.",
+        "As project leader, I lead the model compression and quantization collaboration and coordinate technical development."
       ]
     },
     "zh": {
       "period": "2025年",
-      "title": "华为车BU：多模态大模型低比特量化",
-      "sponsor": "华为车BU",
+      "title": "华为：智能驾驶模型压缩与量化",
+      "sponsor": "华为",
       "role": "项目负责人 / Project Leader",
-      "summary": "围绕车端多模态大模型开展低比特量化与高效部署合作。",
+      "summary": "围绕智能驾驶多模态大模型开展模型压缩、低比特量化与高效部署合作。",
       "details": [
-        "合作面向车端多模态大模型的推理带宽与部署效率，研究权重、激活低比特量化及校准策略，涉及PTQ与PEFT场景下的QAT。",
-        "本人作为项目负责人，主导模型量化合作与技术协同。"
+        "合作面向智能驾驶多模态大模型的压缩与量化，围绕推理带宽与部署效率，研究权重和激活的低比特量化及校准策略，包括后训练量化，以及结合参数高效微调的量化感知训练。",
+        "本人作为项目负责人，主导模型压缩与量化合作及技术协同。"
       ]
     }
   },
